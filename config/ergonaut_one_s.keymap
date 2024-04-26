@@ -85,7 +85,7 @@
         layer_diginav {
             bindings = <
 &kp SINGLE_QUOTE  &kp BACKSLASH  &kp MINUS     &kp EQUAL     &kp GRAVE     &kp PG_UP      &kp INSERT         &kp UP_ARROW     &kp RIGHT_BRACKET  &mt RIGHT_GUI LEFT_BRACKET
-&kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp PAGE_DOWN  &kp LEFT           &kp DOWN         &kp UP             &mt RCTRL SINGLE_QUOTE
+&kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp PAGE_DOWN  &kp LEFT           &kp DOWN         &kp RIGHT          &mt RCTRL SINGLE_QUOTE
 &kp NUMBER_6      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &mt HOME END   &kp RIGHT_BRACKET  &kp PRINTSCREEN  &kp PAUSE_BREAK    &mt RIGHT_ALT CAPSLOCK
                                                &lt 3 TAB     &trans        &kp ESCAPE     &kp ESCAPE         &trans           &lt 3 DELETE
             >;
@@ -104,7 +104,7 @@
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0
 &bt BT_CLR    &bt BT_PRV    &bt BT_NXT    &sys_reset    &bootloader   &bootloader   &sys_reset    &bt BT_NXT    &bt BT_PRV    &bt BT_CLR
-&out OUT_TOG  &out OUT_BLE  &out OUT_USB  &none         &none         &none         &none         &out OUT_USB  &out OUT_BLE  &out OUT_TOG
+&out OUT_TOG  &out OUT_BLE  &out OUT_USB  &none         &sys_reset    &sys_reset    &none         &out OUT_USB  &out OUT_BLE  &out OUT_TOG
                                           &none         &sl 5         &none         &none         &sl 4         &none
             >;
         };
